@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .body{
+    width:30%;
+} */
+
+.divs{
+    /* background-color:  black; */
+    height: 40px;
+    width:40px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:10px;
+    color: none;
+}
+.divs p{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:100%
+}
+.divs:hover{
+    color:white;
+}
+
+
